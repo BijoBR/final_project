@@ -1,0 +1,34 @@
+class food_app:
+    def __init__(self,foodId,name,quantity,price,discount,stock):
+        self.foodId= foodId
+        self.name =name
+        self.quantity =quantity
+        self.price=price
+        self.discount =discount
+        self.stock =stock
+    def __str__(self):
+        return f"FoodId: {self.foodId } \n Name: {self.name} \n quantity: {self.quantity} \n Price: {self.price} \n discount: {self.discount} \n stock: {self.stock}"    
+    def get_foodId(self):
+        return self.foodId
+    def get_name(self):
+        return self.name
+    def get_quantity(self):
+        return self.quantity
+    def get_price(self):
+        return self.price
+    def get_discount(self):
+        return self.discount
+    def get_stock(self):
+        return self.stock
+    def set_foodId(self,foodId):
+        self.foodId =foodId
+    def set_name(self,name):
+        self.name =name
+    def set_quantity(self,quantity):
+        self.quantity =quantity
+    def set_price(self,price):
+        self.price =price
+    def set_discount(self,discount):
+        self.dicount =discount
+    def set_stock(self,stock):
+        self.stock =stock                      
